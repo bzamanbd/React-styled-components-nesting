@@ -1,4 +1,4 @@
-import NetflixCardItem, { CardContent,  RatingValue,  WatchButton } from "./styles/NetflixCardItem";
+import NetflixCardItem, { CardContent,  RatingValue,  WatchButton } from "./styles/NetflixCardStyle";
 
 export const NetflixCard = ({data})=>{ 
     const { name,img_url,description,rating,cast,genre,watch_url } = data
